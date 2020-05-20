@@ -2,6 +2,12 @@
 Get your API key for JSON Horse Odds at https://horseapi.com/
 #### API Methods
 
+#### Install Steps
+`npm install`
+
+#### Run application
+`node index.js`
+
 ### Get a list of tracks
 - api.horseapi.com/tracks
 ```
