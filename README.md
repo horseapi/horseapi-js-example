@@ -1,5 +1,5 @@
 # HorseAPI node.js example
-Get your API key for Json Horse Odds at https://horseapi.com/
+Get your API key for JSON Horse Odds at https://horseapi.com/
 #### API Methods
 
 ### Get a list of tracks
