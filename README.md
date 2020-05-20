@@ -1,7 +1,8 @@
 # HorseAPI node.js example
+Get your API key for Json Horse Odds at https://horseapi.com/
 #### API Methods
 
-###Get a list of tracks
+### Get a list of tracks
 - api.horseapi.com/tracks
 ```
 request('http://api.horseapi.com/tracks', { headers: {'Authorization': 'API_KEY' }, json: true }, (err, res, body) => {
