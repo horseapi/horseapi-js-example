@@ -22,7 +22,7 @@ request('http://api.horseapi.com/races/WRD', { headers, json: true }, (err, res,
 });
 
 // Get race odds, runners, and results for a specific race
-// http://api.horseapi.com/races/track/{trackId}/${raceNumber}
+// http://api.horseapi.com/races/track/{trackId}/{raceNumber}
 request('http://api.horseapi.com/races/WRD/1', { headers, json: true }, (err, res, body) => {
     if (err) { return console.log(err); }
     console.log(body);
